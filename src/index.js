@@ -35,6 +35,7 @@ export Calendar from './icons/calendar';
 export CameraOff from './icons/camera-off';
 export Camera from './icons/camera';
 export Cast from './icons/cast';
+export Chair from './icons/chair';
 export CheckCircle from './icons/check-circle';
 export CheckSquare from './icons/check-square';
 export Check from './icons/check';
