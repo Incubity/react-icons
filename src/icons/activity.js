@@ -9,13 +9,12 @@ const Activity = props => {
       width={size}
       height={size}
       viewBox="0 0 24 24"
+      fill="none"
+      stroke={color}
+      strokeWidth="1"
       {...otherProps}
     >
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g fill={color} fill-rule="nonzero">
-            <polygon points="15 19 9 1 5.63962039 11.0811388 2 11.0811388 2 12.0811388 6.36037961 12.0811388 9 4.16227766 15 22.1622777 18.3603796 12.0811388 22 12.0811388 22 11.0811388 17.6396204 11.0811388"></polygon>
-        </g>
-    </g>
+      <polyline points="2 13 6 13 9 3 15 22 18 13 22 13" />
     </svg>
   );
 };
